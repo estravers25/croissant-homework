@@ -1,3 +1,12 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
+}
+
 h1,
 h2,
 h3,
@@ -9,4 +18,11 @@ div {
 a {
   display: block;
   text-align: center;
+}
+
+img {
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
 }
