@@ -26,3 +26,12 @@ img {
   margin: 0 auto;
   padding: 15px;
 }
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links span {
+  padding: 20px;
+}
